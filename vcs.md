@@ -12,7 +12,7 @@ VCS - Version Control System (git/github)
 init local repository         commit - 
 |                              |
 v                              v
-x------------------------------x----> history
+x------------------------------x--------x..........> history
  \
   +- vcs.md (file)
 
@@ -30,3 +30,4 @@ STEPS:
     git config --global user.name "dorinesinenco"
     git config --global user.email "dorin.e.art@gmail.com"
 3. init repository (local)    
+4. commit + message
